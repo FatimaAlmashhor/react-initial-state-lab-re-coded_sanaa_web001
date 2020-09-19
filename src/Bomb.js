@@ -7,7 +7,7 @@ state = {
           secondsLeft: this.props.initialCount,
         }
       ;
-  const message;
+  let message;
 
     render(){
        
