@@ -4,9 +4,9 @@ import React from 'react';
 
 export default class Bomb extends React.Component {
 state = {
-          secondsLeft: props.initialCount
+          secondsLeft: this.props.initialCount,
         }
-      
+      ;
 
     render(){
         let message;
