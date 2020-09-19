@@ -10,7 +10,7 @@ state = {
  
 
     render(){
-       const message;
+       let  this.message;
 
         if(this.state.secondsLeft === 0) {
             message ='Boom!';
