@@ -7,10 +7,10 @@ state = {
           secondsLeft: this.props.initialCount,
         }
       ;
-  let message;
+ 
 
     render(){
-       
+       const message;
 
         if(this.state.secondsLeft === 0) {
             message ='Boom!';
