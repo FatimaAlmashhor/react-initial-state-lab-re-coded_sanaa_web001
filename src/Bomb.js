@@ -10,16 +10,16 @@ state = {
  
 
     render(){
-       let  this.message;
+    
 
         if(this.state.secondsLeft === 0) {
-            message ='Boom!';
+            this.message ='Boom!';
         }else
         {
-            message = `${this.state.secondsLeft} seconds left before I go boom!`;
+            this.message = `${this.state.secondsLeft} seconds left before I go boom!`;
         }
         return(
-            <p>{message}</p>
+            <p>{this.message}</p>
         );
     }
 }
